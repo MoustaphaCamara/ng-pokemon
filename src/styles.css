@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+.pkmnCard {
+  /* background: radial-gradient(
+    circle,
+    hsla(145, 66%, 91%, 1) 0%,
+    hsla(204, 77%, 76%, 1) 100%
+  );
+  background-position: -100px -100px; */
+  background: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=2000");
+  cursor: crosshair;
+}
+.card-action a {
+  cursor: pointer;
+}
+body {
+  /* background: url("https://images.alphacoders.com/998/998181.jpg") center/cover */
+  /* no-repeat fixed; */
+  /* background: url("https://images7.alphacoders.com/641/641962.jpg") center/cover
+    no-repeat fixed; */
+  background: url("https://images4.alphacoders.com/119/119138.jpg") center/cover
+    fixed;
+  background-position: -200px;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px 0 black;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  /* width: 50%; */
+  margin: 0 auto;
+}
